@@ -1,0 +1,12 @@
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\bin\Debug\net6.0\Grupo36.App.Dominio.deps.json
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\bin\Debug\net6.0\Grupo36.App.Dominio.dll
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\bin\Debug\net6.0\Grupo36.App.Dominio.pdb
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\obj\Debug\net6.0\Grupo36.App.Dominio.csproj.AssemblyReference.cache
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\obj\Debug\net6.0\Grupo36.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\obj\Debug\net6.0\Grupo36.App.Dominio.AssemblyInfoInputs.cache
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\obj\Debug\net6.0\Grupo36.App.Dominio.AssemblyInfo.cs
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\obj\Debug\net6.0\Grupo36.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\obj\Debug\net6.0\Grupo36.App.Dominio.dll
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\obj\Debug\net6.0\refint\Grupo36.App.Dominio.dll
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\obj\Debug\net6.0\Grupo36.App.Dominio.pdb
+C:\Grupo_36\Grupo36.App\Grupo36.App.Dominio\obj\Debug\net6.0\ref\Grupo36.App.Dominio.dll
