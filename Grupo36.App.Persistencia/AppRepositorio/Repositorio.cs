@@ -15,7 +15,9 @@ namespace Grupo36.App.Persistencia
         Persona IRepositorio.AddPersona(Grupo36.App.Dominio.Persona perso){
 
             var agregarpersona = appcox.personas.Add(perso);
-            appcox.SaveChances
+            appcox.SaveChances();
+            
+            return agregarpersona.Entity;
         }
     }
 }
