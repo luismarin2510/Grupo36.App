@@ -6,9 +6,16 @@ namespace Grupo36.App.Persistencia
 {
     public class Repositorio : IRepositorio
     {
-        public Repositorio()
+        private readonly AppContext appcox;
+        public Repositorio(AppContext appContext)
         {
-            
+            appcox = appContext;
+        }
+
+        Persona IRepositorio.AddPersona(Grupo36.App.Dominio.Persona perso){
+
+            var agregarpersona = appcox.personas.Add(perso);
+            appcox.SaveChances
         }
     }
 }
