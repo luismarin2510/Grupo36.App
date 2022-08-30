@@ -16,8 +16,23 @@ namespace Grupo36.App.Persistencia
 
             var agregarpersona = appcox.personas.Add(perso);
             appcox.SaveChances();
-            
+
             return agregarpersona.Entity;
+        }
+
+        // eliminar
+        void IRepositorio.DeletePesona(int idPersona){
+            var  encontrarPersona = appcox.personas.FirstOrDefault(p => p.Id == idPersona);
+            if (encontrarPersona == null){
+                return;
+
+            }
+            appcox.personas.Remove(encontrarPersona);
+            appcox.SaveChange();
+
+            {
+                
+            }
         }
     }
 }
