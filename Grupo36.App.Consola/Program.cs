@@ -2,5 +2,16 @@
 using System;
 using Grupo36.App.Dominio;
 using Grupo36.App.Persistencia;
+namespace Grupo36.App.Consola
+{
+    class program{
+        private static IRepositorio _repoPersona =  new Repositorio(new Grupo36.App.Persistencia.AppContext());
 
-Console.WriteLine("Hello, World!");
+        static void Main (string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+
+
