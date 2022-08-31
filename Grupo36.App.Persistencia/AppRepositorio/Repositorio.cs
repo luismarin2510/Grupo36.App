@@ -15,7 +15,7 @@ namespace Grupo36.App.Persistencia
         Persona IRepositorio.AddPersona(Grupo36.App.Dominio.Persona perso){
 
             var agregarpersona = appcox.personas.Add(perso);
-            appcox.SaveChances();
+            appcox.SaveChanges();
 
             return agregarpersona.Entity;
         }
@@ -28,7 +28,7 @@ namespace Grupo36.App.Persistencia
 
             }
             appcox.personas.Remove(encontrarPersona);
-            appcox.SaveChange();
+            appcox.SaveChanges();
         }
 
         // Llamar todos los datos de l tabla 
@@ -43,7 +43,7 @@ namespace Grupo36.App.Persistencia
         }
         // Actualizar
         Persona IRepositorio.UpdatePersona(Grupo36.App.Dominio.Persona perso){
-            var PersonaEncontrada = appcox.FirtsOrDefault(perso => perso.Id == perso.Id);
+            var PersonaEncontrada = appcox.personas.FirstOrDefault(p => p.Id == perso.Id);
 
             if(PersonaEncontrada != null){
                 PersonaEncontrada.nombre = perso.nombre;
@@ -51,7 +51,7 @@ namespace Grupo36.App.Persistencia
             }
             return PersonaEncontrada;
         }
-        
+
     }
 
 }
