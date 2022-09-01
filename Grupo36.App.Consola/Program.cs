@@ -11,6 +11,9 @@ namespace Grupo36.App.Consola
         {
             Console.WriteLine("Hello, World!");
         }
+        // private static AddPerson(){
+            
+        // }
     }
 }
 
