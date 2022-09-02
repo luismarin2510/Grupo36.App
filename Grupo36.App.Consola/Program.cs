@@ -12,8 +12,13 @@ namespace Grupo36.App.Consola
             Console.WriteLine("Hello, World!");
         }
         private static AddPerson(){
+            
             var pers = new Persona{
                 
+                nombre = "Maria",
+                apellido ="Rojas",
+                edad = 26,
+                telefono = "3175622"
             };
         }
     }
