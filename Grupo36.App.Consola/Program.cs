@@ -10,17 +10,30 @@ namespace Grupo36.App.Consola
         static void Main (string[] args)
         {
             Console.WriteLine("Hello, World!");
+                // AddPerson();
+                buscarPersona(1);
         }
-        private static AddPerson(){
+        private static void AddPerson(){
             
             var pers = new Persona{
-                
-                nombre = "Maria",
-                apellido ="Rojas",
-                edad = 26,
-                telefono = "3175622"
+
+                nombre = "Juan",
+                apellido ="Alvarez",
+                edad = 36,
+                telefono = "300345"
             };
+            _repoPersona.AddPersona(pers);
+            ////////////////////////////////////////////////////////////
+
         }
+        private static void buscarPersona(int idp){
+             var person = _repoPersona.GetPersona(idp);
+
+             if (person != null)
+             {
+                Console.WriteLine("nombre: "+ person.nombre+" "+person.apellido+"\n edad: "+person.edad+"\n telefono: "+person.telefono);
+             }
+            }
     }
 }
 
